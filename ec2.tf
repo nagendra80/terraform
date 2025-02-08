@@ -3,7 +3,7 @@
   name          = "example-env"
   image_id      = "amazonlinux-2023-x86_64"
 } */
-
+// this is ec2 instance creation
 resource "aws_instance" "this" {
   ami           = "ami-09c813fb71547fc4f"
   vpc_security_group_ids = [aws_security_group.allow_tls.id]

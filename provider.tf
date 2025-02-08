@@ -1,3 +1,4 @@
+// this file indicates the version of the terraform
 terraform {
   required_providers {
     aws = {
